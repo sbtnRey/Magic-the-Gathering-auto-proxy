@@ -10,8 +10,9 @@ except:
 
 def listParse():
 
-    # set .txt file name to variable cubeFile that should be in the same dir
-    cubeTextFile = "mtgo_legacy_cube_january_2017.txt"
+    # set .txt file name to variable cubeFile that should be in the same dir, http://www.cubetutor.com is a good place
+    # to download a the .txt list of ones cube to put in
+    cubeTextFile = "yourFileName.txt"
 
     with open(cubeTextFile) as f:
         content = f.readlines()
